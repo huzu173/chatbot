@@ -8,9 +8,16 @@
 </head>
 <body>
     <div class="chat-container">
-        <div id="chat-box" class="chat-box"></div>
-        <input type="text" id="user-input" class="user-input" placeholder="Type a message...">
-        <button onclick="sendMessage()" class="send-button">Send</button>
+        <div class="chat-header">
+            <h3>AI Chatbot</h3>
+        </div>
+        <div id="chat-box" class="chat-box">
+            <div class="bot-message">Hi! How can I assist you today?</div>
+        </div>
+        <div class="chat-input-container">
+            <input type="text" id="user-input" class="user-input" placeholder="Type a message...">
+            <button onclick="sendMessage()" class="send-button">Send</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
